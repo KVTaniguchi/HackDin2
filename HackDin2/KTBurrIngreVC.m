@@ -9,7 +9,10 @@
 #import "KTBurrIngreVC.h"
 
 @interface KTBurrIngreVC ()
-
+@property (nonatomic) BOOL whiteRiceSelected;
+@property (nonatomic) BOOL pintoBeansSelected;
+@property (nonatomic) BOOL blackBeansSelected;
+@property (nonatomic) BOOL guacSelected;
 @end
 
 
