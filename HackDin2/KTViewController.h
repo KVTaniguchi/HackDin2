@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface KTViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *bowlButton;
+@property (strong, nonatomic) IBOutlet UIButton *burritoButton;
+@property (strong, nonatomic) IBOutlet UIButton *saladButton;
 
 @end

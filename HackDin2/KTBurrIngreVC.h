@@ -19,5 +19,19 @@
 - (IBAction)veggieButtonPressed:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *cheeseButton;
 - (IBAction)cheeseButtonPress:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *steakButton;
+- (IBAction)steakButtonPress:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *porkButton;
+- (IBAction)porkButtonPress:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *bbqButton;
+- (IBAction)bbqButtonPress:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *chickenButton;
+- (IBAction)chickenButtonPress:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *sourCreamButton;
+- (IBAction)sourCreamButtonPress:(id)sender;
+
+
+
+
 
 @end

@@ -18,12 +18,25 @@
 {
     [super viewDidLoad];
     
+    self.saladButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+    self.burritoButton.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    self.bowlButton.autoresizingMask = UIViewAutoresizingFlexibleRightMargin;
+    [[UIDevice currentDevice]beginGeneratingDeviceOrientationNotifications];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(detectOrientation) name:UIDeviceOrientationDidChangeNotification object:nil];
+}
+
+-(void)detectOrientation{
+    NSLog(@"did change");
+    if ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft || [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight) {
+        NSLog(@"landscape");
+        self.saladButton.frame = CGRectMake(10, 10, 100, 100);
+        [self.view setNeedsDisplay];
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

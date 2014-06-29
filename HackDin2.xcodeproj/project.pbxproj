@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C719774119608A980056EEC7 /* Chipotle-Steak-Burrito-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C719774019608A980056EEC7 /* Chipotle-Steak-Burrito-3.png */; };
+		C71977431960A55A0056EEC7 /* leftVectorArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C71977421960A55A0056EEC7 /* leftVectorArrow.png */; };
+		C71977461960AB140056EEC7 /* KTBurritoSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C71977451960AB140056EEC7 /* KTBurritoSelectorVC.m */; };
 		C7D96D1D195F5BB800C5C875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D96D1C195F5BB800C5C875 /* Foundation.framework */; };
 		C7D96D1F195F5BB900C5C875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D96D1E195F5BB900C5C875 /* CoreGraphics.framework */; };
 		C7D96D21195F5BB900C5C875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D96D20195F5BB900C5C875 /* UIKit.framework */; };
@@ -34,7 +37,37 @@
 		C7D96D75195F926500C5C875 /* KTScoreCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D74195F926500C5C875 /* KTScoreCalculator.m */; };
 		C7D96D77195F947900C5C875 /* ChipotleFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D76195F947900C5C875 /* ChipotleFront.jpg */; };
 		C7D96D79195F990600C5C875 /* AvocadosBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D78195F990600C5C875 /* AvocadosBG.jpg */; };
-		C7D96D7C19602E3F00C5C875 /* KTBurritoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */; };
+		C7D96D9019604D6200C5C875 /* Barbacoa.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D7E19604D6200C5C875 /* Barbacoa.png */; };
+		C7D96D9119604D6200C5C875 /* Black Beans.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D7F19604D6200C5C875 /* Black Beans.png */; };
+		C7D96D9219604D6200C5C875 /* Brown Rice.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8019604D6200C5C875 /* Brown Rice.png */; };
+		C7D96D9319604D6200C5C875 /* Carnitas.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8119604D6200C5C875 /* Carnitas.png */; };
+		C7D96D9419604D6200C5C875 /* Cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8219604D6200C5C875 /* Cheese.png */; };
+		C7D96D9519604D6200C5C875 /* Chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8319604D6200C5C875 /* Chicken.png */; };
+		C7D96D9619604D6200C5C875 /* Corn Salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8419604D6200C5C875 /* Corn Salsa.png */; };
+		C7D96D9719604D6200C5C875 /* Fajita Veggies.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8519604D6200C5C875 /* Fajita Veggies.png */; };
+		C7D96D9819604D6200C5C875 /* Green Tomatillo Salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8619604D6200C5C875 /* Green Tomatillo Salsa.png */; };
+		C7D96D9919604D6200C5C875 /* Guacamole.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8719604D6200C5C875 /* Guacamole.png */; };
+		C7D96D9A19604D6200C5C875 /* Lettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8819604D6200C5C875 /* Lettuce.png */; };
+		C7D96D9B19604D6200C5C875 /* Pinto Beans.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8919604D6200C5C875 /* Pinto Beans.png */; };
+		C7D96D9C19604D6200C5C875 /* Red Tomatillo Salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8A19604D6200C5C875 /* Red Tomatillo Salsa.png */; };
+		C7D96D9D19604D6200C5C875 /* Sofritas.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8B19604D6200C5C875 /* Sofritas.png */; };
+		C7D96D9E19604D6200C5C875 /* Sour Cream.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8C19604D6200C5C875 /* Sour Cream.png */; };
+		C7D96D9F19604D6200C5C875 /* Steak.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8D19604D6200C5C875 /* Steak.png */; };
+		C7D96DA019604D6200C5C875 /* Tomato Salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8E19604D6200C5C875 /* Tomato Salsa.png */; };
+		C7D96DA119604D6200C5C875 /* White Rice.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D8F19604D6200C5C875 /* White Rice.png */; };
+		C7D96DA419604DC500C5C875 /* KTShoppingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96DA319604DC500C5C875 /* KTShoppingStore.m */; };
+		C7D96DA6196059AB00C5C875 /* beef.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DA5196059AB00C5C875 /* beef.jpeg */; };
+		C7D96DAA19605E0500C5C875 /* Steak_V_clip_art_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DA919605E0500C5C875 /* Steak_V_clip_art_medium.png */; };
+		C7D96DAC19605FBA00C5C875 /* chipotle logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DAB19605FBA00C5C875 /* chipotle logo.png */; };
+		C7D96DAE19606A3100C5C875 /* Hibachi-Steak-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DAD19606A3100C5C875 /* Hibachi-Steak-3.jpg */; };
+		C7D96DB019606C9900C5C875 /* tortillTexture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DAF19606C9900C5C875 /* tortillTexture.jpeg */; };
+		C7D96DB31960722B00C5C875 /* GoEasyBurrito.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DB21960722B00C5C875 /* GoEasyBurrito.png */; };
+		C7D96DB7196072F700C5C875 /* StandardBurrito.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DB6196072F700C5C875 /* StandardBurrito.png */; };
+		C7D96DBB1960795700C5C875 /* CPSalad.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DB91960795700C5C875 /* CPSalad.png */; };
+		C7D96DBC1960795700C5C875 /* CPTacos.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DBA1960795700C5C875 /* CPTacos.png */; };
+		C7D96DBF1960795F00C5C875 /* CpBowl.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DBD1960795F00C5C875 /* CpBowl.png */; };
+		C7D96DC01960795F00C5C875 /* CpBurrito.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DBE1960795F00C5C875 /* CpBurrito.png */; };
+		C7D96DC219607C2C00C5C875 /* chipotleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96DC119607C2C00C5C875 /* chipotleLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +81,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C719774019608A980056EEC7 /* Chipotle-Steak-Burrito-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chipotle-Steak-Burrito-3.png"; sourceTree = "<group>"; };
+		C71977421960A55A0056EEC7 /* leftVectorArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftVectorArrow.png; sourceTree = "<group>"; };
+		C71977441960AB140056EEC7 /* KTBurritoSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurritoSelectorVC.h; sourceTree = "<group>"; };
+		C71977451960AB140056EEC7 /* KTBurritoSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurritoSelectorVC.m; sourceTree = "<group>"; };
 		C7D96D19195F5BB800C5C875 /* HackDin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackDin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D96D1C195F5BB800C5C875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7D96D1E195F5BB900C5C875 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,8 +123,38 @@
 		C7D96D74195F926500C5C875 /* KTScoreCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScoreCalculator.m; sourceTree = "<group>"; };
 		C7D96D76195F947900C5C875 /* ChipotleFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChipotleFront.jpg; sourceTree = "<group>"; };
 		C7D96D78195F990600C5C875 /* AvocadosBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AvocadosBG.jpg; sourceTree = "<group>"; };
-		C7D96D7A19602E3F00C5C875 /* KTBurritoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurritoStore.h; sourceTree = "<group>"; };
-		C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurritoStore.m; sourceTree = "<group>"; };
+		C7D96D7E19604D6200C5C875 /* Barbacoa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbacoa.png; sourceTree = "<group>"; };
+		C7D96D7F19604D6200C5C875 /* Black Beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Beans.png"; sourceTree = "<group>"; };
+		C7D96D8019604D6200C5C875 /* Brown Rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brown Rice.png"; sourceTree = "<group>"; };
+		C7D96D8119604D6200C5C875 /* Carnitas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carnitas.png; sourceTree = "<group>"; };
+		C7D96D8219604D6200C5C875 /* Cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheese.png; sourceTree = "<group>"; };
+		C7D96D8319604D6200C5C875 /* Chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicken.png; sourceTree = "<group>"; };
+		C7D96D8419604D6200C5C875 /* Corn Salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corn Salsa.png"; sourceTree = "<group>"; };
+		C7D96D8519604D6200C5C875 /* Fajita Veggies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fajita Veggies.png"; sourceTree = "<group>"; };
+		C7D96D8619604D6200C5C875 /* Green Tomatillo Salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Tomatillo Salsa.png"; sourceTree = "<group>"; };
+		C7D96D8719604D6200C5C875 /* Guacamole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guacamole.png; sourceTree = "<group>"; };
+		C7D96D8819604D6200C5C875 /* Lettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lettuce.png; sourceTree = "<group>"; };
+		C7D96D8919604D6200C5C875 /* Pinto Beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pinto Beans.png"; sourceTree = "<group>"; };
+		C7D96D8A19604D6200C5C875 /* Red Tomatillo Salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Tomatillo Salsa.png"; sourceTree = "<group>"; };
+		C7D96D8B19604D6200C5C875 /* Sofritas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sofritas.png; sourceTree = "<group>"; };
+		C7D96D8C19604D6200C5C875 /* Sour Cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sour Cream.png"; sourceTree = "<group>"; };
+		C7D96D8D19604D6200C5C875 /* Steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steak.png; sourceTree = "<group>"; };
+		C7D96D8E19604D6200C5C875 /* Tomato Salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tomato Salsa.png"; sourceTree = "<group>"; };
+		C7D96D8F19604D6200C5C875 /* White Rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Rice.png"; sourceTree = "<group>"; };
+		C7D96DA219604DC500C5C875 /* KTShoppingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTShoppingStore.h; sourceTree = "<group>"; };
+		C7D96DA319604DC500C5C875 /* KTShoppingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTShoppingStore.m; sourceTree = "<group>"; };
+		C7D96DA5196059AB00C5C875 /* beef.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpeg; sourceTree = "<group>"; };
+		C7D96DA919605E0500C5C875 /* Steak_V_clip_art_medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steak_V_clip_art_medium.png; sourceTree = "<group>"; };
+		C7D96DAB19605FBA00C5C875 /* chipotle logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chipotle logo.png"; sourceTree = "<group>"; };
+		C7D96DAD19606A3100C5C875 /* Hibachi-Steak-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hibachi-Steak-3.jpg"; sourceTree = "<group>"; };
+		C7D96DAF19606C9900C5C875 /* tortillTexture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tortillTexture.jpeg; sourceTree = "<group>"; };
+		C7D96DB21960722B00C5C875 /* GoEasyBurrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoEasyBurrito.png; sourceTree = "<group>"; };
+		C7D96DB6196072F700C5C875 /* StandardBurrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StandardBurrito.png; sourceTree = "<group>"; };
+		C7D96DB91960795700C5C875 /* CPSalad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPSalad.png; sourceTree = "<group>"; };
+		C7D96DBA1960795700C5C875 /* CPTacos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPTacos.png; sourceTree = "<group>"; };
+		C7D96DBD1960795F00C5C875 /* CpBowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CpBowl.png; sourceTree = "<group>"; };
+		C7D96DBE1960795F00C5C875 /* CpBurrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CpBurrito.png; sourceTree = "<group>"; };
+		C7D96DC119607C2C00C5C875 /* chipotleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chipotleLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +214,9 @@
 		C7D96D22195F5BB900C5C875 /* HackDin2 */ = {
 			isa = PBXGroup;
 			children = (
+				C7D96DB81960794500C5C875 /* MenuPics */,
+				C7D96DB119606CAD00C5C875 /* ProportionImages */,
+				C7D96D7D19604D5200C5C875 /* IngredientImages */,
 				C7D96D70195F912800C5C875 /* KTUser.h */,
 				C7D96D71195F912800C5C875 /* KTUser.m */,
 				C7D96D60195F70C500C5C875 /* SPUserResizableView.h */,
@@ -160,12 +230,7 @@
 				C7D96D23195F5BB900C5C875 /* Supporting Files */,
 				C7D96D51195F5ED500C5C875 /* KTBurritoBuilderVC.h */,
 				C7D96D52195F5ED500C5C875 /* KTBurritoBuilderVC.m */,
-				C7D96D54195F638900C5C875 /* beans.jpg */,
-				C7D96D58195F63A700C5C875 /* avocado.jpg */,
-				C7D96D56195F639700C5C875 /* rice.jpg */,
-				C7D96D76195F947900C5C875 /* ChipotleFront.jpg */,
 				C7D96D66195F804000C5C875 /* KTBurrIngreVC.h */,
-				C7D96D78195F990600C5C875 /* AvocadosBG.jpg */,
 				C7D96D67195F804000C5C875 /* KTBurrIngreVC.m */,
 				C7D96D69195F81D000C5C875 /* check.png */,
 				C7D96D6B195F833000C5C875 /* checkmark64.png */,
@@ -173,8 +238,10 @@
 				C7D96D6E195F909100C5C875 /* KTBurrito.m */,
 				C7D96D73195F926500C5C875 /* KTScoreCalculator.h */,
 				C7D96D74195F926500C5C875 /* KTScoreCalculator.m */,
-				C7D96D7A19602E3F00C5C875 /* KTBurritoStore.h */,
-				C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */,
+				C7D96DA219604DC500C5C875 /* KTShoppingStore.h */,
+				C7D96DA319604DC500C5C875 /* KTShoppingStore.m */,
+				C71977441960AB140056EEC7 /* KTBurritoSelectorVC.h */,
+				C71977451960AB140056EEC7 /* KTBurritoSelectorVC.m */,
 			);
 			path = HackDin2;
 			sourceTree = "<group>";
@@ -206,6 +273,64 @@
 				C7D96D44195F5BB900C5C875 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7D96D7D19604D5200C5C875 /* IngredientImages */ = {
+			isa = PBXGroup;
+			children = (
+				C7D96D7E19604D6200C5C875 /* Barbacoa.png */,
+				C7D96D7F19604D6200C5C875 /* Black Beans.png */,
+				C7D96D8019604D6200C5C875 /* Brown Rice.png */,
+				C7D96D8119604D6200C5C875 /* Carnitas.png */,
+				C7D96D8219604D6200C5C875 /* Cheese.png */,
+				C7D96D8319604D6200C5C875 /* Chicken.png */,
+				C7D96D8419604D6200C5C875 /* Corn Salsa.png */,
+				C7D96D8519604D6200C5C875 /* Fajita Veggies.png */,
+				C7D96D8619604D6200C5C875 /* Green Tomatillo Salsa.png */,
+				C7D96D8719604D6200C5C875 /* Guacamole.png */,
+				C7D96D8819604D6200C5C875 /* Lettuce.png */,
+				C7D96D8919604D6200C5C875 /* Pinto Beans.png */,
+				C7D96D8A19604D6200C5C875 /* Red Tomatillo Salsa.png */,
+				C7D96D8B19604D6200C5C875 /* Sofritas.png */,
+				C7D96D8C19604D6200C5C875 /* Sour Cream.png */,
+				C7D96D8D19604D6200C5C875 /* Steak.png */,
+				C7D96D8E19604D6200C5C875 /* Tomato Salsa.png */,
+				C7D96D8F19604D6200C5C875 /* White Rice.png */,
+			);
+			name = IngredientImages;
+			sourceTree = "<group>";
+		};
+		C7D96DB119606CAD00C5C875 /* ProportionImages */ = {
+			isa = PBXGroup;
+			children = (
+				C7D96DB21960722B00C5C875 /* GoEasyBurrito.png */,
+				C7D96DB6196072F700C5C875 /* StandardBurrito.png */,
+				C7D96DA5196059AB00C5C875 /* beef.jpeg */,
+				C7D96DAB19605FBA00C5C875 /* chipotle logo.png */,
+				C7D96D54195F638900C5C875 /* beans.jpg */,
+				C7D96DA919605E0500C5C875 /* Steak_V_clip_art_medium.png */,
+				C7D96D58195F63A700C5C875 /* avocado.jpg */,
+				C7D96D56195F639700C5C875 /* rice.jpg */,
+				C7D96D76195F947900C5C875 /* ChipotleFront.jpg */,
+				C7D96DAD19606A3100C5C875 /* Hibachi-Steak-3.jpg */,
+				C7D96DAF19606C9900C5C875 /* tortillTexture.jpeg */,
+				C7D96D78195F990600C5C875 /* AvocadosBG.jpg */,
+			);
+			name = ProportionImages;
+			sourceTree = "<group>";
+		};
+		C7D96DB81960794500C5C875 /* MenuPics */ = {
+			isa = PBXGroup;
+			children = (
+				C71977421960A55A0056EEC7 /* leftVectorArrow.png */,
+				C7D96DC119607C2C00C5C875 /* chipotleLogo.png */,
+				C7D96DB91960795700C5C875 /* CPSalad.png */,
+				C7D96DBA1960795700C5C875 /* CPTacos.png */,
+				C7D96DBD1960795F00C5C875 /* CpBowl.png */,
+				C7D96DBE1960795F00C5C875 /* CpBurrito.png */,
+				C719774019608A980056EEC7 /* Chipotle-Steak-Burrito-3.png */,
+			);
+			name = MenuPics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +381,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Taniguchi;
 				TargetAttributes = {
+					C7D96D18195F5BB800C5C875 = {
+						DevelopmentTeam = 3B3FT42G96;
+					};
 					C7D96D39195F5BB900C5C875 = {
 						TestTargetID = C7D96D18195F5BB800C5C875;
 					};
@@ -285,15 +413,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D96D9619604D6200C5C875 /* Corn Salsa.png in Resources */,
+				C7D96DB7196072F700C5C875 /* StandardBurrito.png in Resources */,
+				C7D96DBF1960795F00C5C875 /* CpBowl.png in Resources */,
+				C71977431960A55A0056EEC7 /* leftVectorArrow.png in Resources */,
 				C7D96D35195F5BB900C5C875 /* Images.xcassets in Resources */,
+				C7D96DC219607C2C00C5C875 /* chipotleLogo.png in Resources */,
+				C7D96D9919604D6200C5C875 /* Guacamole.png in Resources */,
+				C7D96D9B19604D6200C5C875 /* Pinto Beans.png in Resources */,
+				C7D96D9719604D6200C5C875 /* Fajita Veggies.png in Resources */,
+				C7D96D9819604D6200C5C875 /* Green Tomatillo Salsa.png in Resources */,
+				C7D96DC01960795F00C5C875 /* CpBurrito.png in Resources */,
+				C7D96D9219604D6200C5C875 /* Brown Rice.png in Resources */,
 				C7D96D57195F639700C5C875 /* rice.jpg in Resources */,
+				C7D96D9A19604D6200C5C875 /* Lettuce.png in Resources */,
+				C7D96DBB1960795700C5C875 /* CPSalad.png in Resources */,
+				C7D96DA6196059AB00C5C875 /* beef.jpeg in Resources */,
+				C7D96D9519604D6200C5C875 /* Chicken.png in Resources */,
 				C7D96D6A195F81D000C5C875 /* check.png in Resources */,
 				C7D96D55195F638900C5C875 /* beans.jpg in Resources */,
+				C7D96D9119604D6200C5C875 /* Black Beans.png in Resources */,
 				C7D96D77195F947900C5C875 /* ChipotleFront.jpg in Resources */,
+				C7D96DB019606C9900C5C875 /* tortillTexture.jpeg in Resources */,
+				C7D96DAE19606A3100C5C875 /* Hibachi-Steak-3.jpg in Resources */,
+				C7D96DB31960722B00C5C875 /* GoEasyBurrito.png in Resources */,
+				C7D96D9E19604D6200C5C875 /* Sour Cream.png in Resources */,
 				C7D96D27195F5BB900C5C875 /* InfoPlist.strings in Resources */,
 				C7D96D6C195F833000C5C875 /* checkmark64.png in Resources */,
 				C7D96D30195F5BB900C5C875 /* Main.storyboard in Resources */,
+				C7D96DBC1960795700C5C875 /* CPTacos.png in Resources */,
+				C719774119608A980056EEC7 /* Chipotle-Steak-Burrito-3.png in Resources */,
+				C7D96D9319604D6200C5C875 /* Carnitas.png in Resources */,
+				C7D96D9D19604D6200C5C875 /* Sofritas.png in Resources */,
+				C7D96D9019604D6200C5C875 /* Barbacoa.png in Resources */,
+				C7D96DA019604D6200C5C875 /* Tomato Salsa.png in Resources */,
 				C7D96D79195F990600C5C875 /* AvocadosBG.jpg in Resources */,
+				C7D96DAA19605E0500C5C875 /* Steak_V_clip_art_medium.png in Resources */,
+				C7D96D9C19604D6200C5C875 /* Red Tomatillo Salsa.png in Resources */,
+				C7D96D9419604D6200C5C875 /* Cheese.png in Resources */,
+				C7D96DA119604D6200C5C875 /* White Rice.png in Resources */,
+				C7D96D9F19604D6200C5C875 /* Steak.png in Resources */,
+				C7D96DAC19605FBA00C5C875 /* chipotle logo.png in Resources */,
 				C7D96D59195F63A700C5C875 /* avocado.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,12 +476,13 @@
 				C7D96D68195F804000C5C875 /* KTBurrIngreVC.m in Sources */,
 				C7D96D72195F912800C5C875 /* KTUser.m in Sources */,
 				C7D96D33195F5BB900C5C875 /* KTViewController.m in Sources */,
+				C71977461960AB140056EEC7 /* KTBurritoSelectorVC.m in Sources */,
 				C7D96D62195F70C500C5C875 /* SPUserResizableView.m in Sources */,
 				C7D96D53195F5ED500C5C875 /* KTBurritoBuilderVC.m in Sources */,
 				C7D96D75195F926500C5C875 /* KTScoreCalculator.m in Sources */,
 				C7D96D29195F5BB900C5C875 /* main.m in Sources */,
 				C7D96D6F195F909100C5C875 /* KTBurrito.m in Sources */,
-				C7D96D7C19602E3F00C5C875 /* KTBurritoStore.m in Sources */,
+				C7D96DA419604DC500C5C875 /* KTShoppingStore.m in Sources */,
 				C7D96D2D195F5BB900C5C875 /* KTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,10 +610,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackDin2/HackDin2-Prefix.pch";
 				INFOPLIST_FILE = "HackDin2/HackDin2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F1551D8-9060-45E7-9049-DEDAC3F66CE9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -462,10 +627,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackDin2/HackDin2-Prefix.pch";
 				INFOPLIST_FILE = "HackDin2/HackDin2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F1551D8-9060-45E7-9049-DEDAC3F66CE9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -529,6 +698,7 @@
 				C7D96D4D195F5BB900C5C875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D96D4E195F5BB900C5C875 /* Build configuration list for PBXNativeTarget "HackDin2Tests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +707,7 @@
 				C7D96D50195F5BB900C5C875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
