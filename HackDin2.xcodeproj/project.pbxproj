@@ -21,6 +21,20 @@
 		C7D96D3E195F5BB900C5C875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D96D20195F5BB900C5C875 /* UIKit.framework */; };
 		C7D96D46195F5BB900C5C875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D44195F5BB900C5C875 /* InfoPlist.strings */; };
 		C7D96D48195F5BB900C5C875 /* HackDin2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D47195F5BB900C5C875 /* HackDin2Tests.m */; };
+		C7D96D53195F5ED500C5C875 /* KTBurritoBuilderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D52195F5ED500C5C875 /* KTBurritoBuilderVC.m */; };
+		C7D96D55195F638900C5C875 /* beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D54195F638900C5C875 /* beans.jpg */; };
+		C7D96D57195F639700C5C875 /* rice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D56195F639700C5C875 /* rice.jpg */; };
+		C7D96D59195F63A700C5C875 /* avocado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D58195F63A700C5C875 /* avocado.jpg */; };
+		C7D96D62195F70C500C5C875 /* SPUserResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D61195F70C500C5C875 /* SPUserResizableView.m */; };
+		C7D96D68195F804000C5C875 /* KTBurrIngreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D67195F804000C5C875 /* KTBurrIngreVC.m */; };
+		C7D96D6A195F81D000C5C875 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D69195F81D000C5C875 /* check.png */; };
+		C7D96D6C195F833000C5C875 /* checkmark64.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D6B195F833000C5C875 /* checkmark64.png */; };
+		C7D96D6F195F909100C5C875 /* KTBurrito.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D6E195F909100C5C875 /* KTBurrito.m */; };
+		C7D96D72195F912800C5C875 /* KTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D71195F912800C5C875 /* KTUser.m */; };
+		C7D96D75195F926500C5C875 /* KTScoreCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D74195F926500C5C875 /* KTScoreCalculator.m */; };
+		C7D96D77195F947900C5C875 /* ChipotleFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D76195F947900C5C875 /* ChipotleFront.jpg */; };
+		C7D96D79195F990600C5C875 /* AvocadosBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D96D78195F990600C5C875 /* AvocadosBG.jpg */; };
+		C7D96D7C19602E3F00C5C875 /* KTBurritoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,27 @@
 		C7D96D43195F5BB900C5C875 /* HackDin2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackDin2Tests-Info.plist"; sourceTree = "<group>"; };
 		C7D96D45195F5BB900C5C875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7D96D47195F5BB900C5C875 /* HackDin2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackDin2Tests.m; sourceTree = "<group>"; };
+		C7D96D51195F5ED500C5C875 /* KTBurritoBuilderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurritoBuilderVC.h; sourceTree = "<group>"; };
+		C7D96D52195F5ED500C5C875 /* KTBurritoBuilderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurritoBuilderVC.m; sourceTree = "<group>"; };
+		C7D96D54195F638900C5C875 /* beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beans.jpg; sourceTree = "<group>"; };
+		C7D96D56195F639700C5C875 /* rice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rice.jpg; sourceTree = "<group>"; };
+		C7D96D58195F63A700C5C875 /* avocado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avocado.jpg; sourceTree = "<group>"; };
+		C7D96D60195F70C500C5C875 /* SPUserResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUserResizableView.h; sourceTree = "<group>"; };
+		C7D96D61195F70C500C5C875 /* SPUserResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUserResizableView.m; sourceTree = "<group>"; };
+		C7D96D66195F804000C5C875 /* KTBurrIngreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurrIngreVC.h; sourceTree = "<group>"; };
+		C7D96D67195F804000C5C875 /* KTBurrIngreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurrIngreVC.m; sourceTree = "<group>"; };
+		C7D96D69195F81D000C5C875 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		C7D96D6B195F833000C5C875 /* checkmark64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark64.png; sourceTree = "<group>"; };
+		C7D96D6D195F909100C5C875 /* KTBurrito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurrito.h; sourceTree = "<group>"; };
+		C7D96D6E195F909100C5C875 /* KTBurrito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurrito.m; sourceTree = "<group>"; };
+		C7D96D70195F912800C5C875 /* KTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTUser.h; path = ../KTUser.h; sourceTree = "<group>"; };
+		C7D96D71195F912800C5C875 /* KTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTUser.m; path = ../KTUser.m; sourceTree = "<group>"; };
+		C7D96D73195F926500C5C875 /* KTScoreCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScoreCalculator.h; sourceTree = "<group>"; };
+		C7D96D74195F926500C5C875 /* KTScoreCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScoreCalculator.m; sourceTree = "<group>"; };
+		C7D96D76195F947900C5C875 /* ChipotleFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChipotleFront.jpg; sourceTree = "<group>"; };
+		C7D96D78195F990600C5C875 /* AvocadosBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AvocadosBG.jpg; sourceTree = "<group>"; };
+		C7D96D7A19602E3F00C5C875 /* KTBurritoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBurritoStore.h; sourceTree = "<group>"; };
+		C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBurritoStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +147,10 @@
 		C7D96D22195F5BB900C5C875 /* HackDin2 */ = {
 			isa = PBXGroup;
 			children = (
+				C7D96D70195F912800C5C875 /* KTUser.h */,
+				C7D96D71195F912800C5C875 /* KTUser.m */,
+				C7D96D60195F70C500C5C875 /* SPUserResizableView.h */,
+				C7D96D61195F70C500C5C875 /* SPUserResizableView.m */,
 				C7D96D2B195F5BB900C5C875 /* KTAppDelegate.h */,
 				C7D96D2C195F5BB900C5C875 /* KTAppDelegate.m */,
 				C7D96D2E195F5BB900C5C875 /* Main.storyboard */,
@@ -119,6 +158,23 @@
 				C7D96D32195F5BB900C5C875 /* KTViewController.m */,
 				C7D96D34195F5BB900C5C875 /* Images.xcassets */,
 				C7D96D23195F5BB900C5C875 /* Supporting Files */,
+				C7D96D51195F5ED500C5C875 /* KTBurritoBuilderVC.h */,
+				C7D96D52195F5ED500C5C875 /* KTBurritoBuilderVC.m */,
+				C7D96D54195F638900C5C875 /* beans.jpg */,
+				C7D96D58195F63A700C5C875 /* avocado.jpg */,
+				C7D96D56195F639700C5C875 /* rice.jpg */,
+				C7D96D76195F947900C5C875 /* ChipotleFront.jpg */,
+				C7D96D66195F804000C5C875 /* KTBurrIngreVC.h */,
+				C7D96D78195F990600C5C875 /* AvocadosBG.jpg */,
+				C7D96D67195F804000C5C875 /* KTBurrIngreVC.m */,
+				C7D96D69195F81D000C5C875 /* check.png */,
+				C7D96D6B195F833000C5C875 /* checkmark64.png */,
+				C7D96D6D195F909100C5C875 /* KTBurrito.h */,
+				C7D96D6E195F909100C5C875 /* KTBurrito.m */,
+				C7D96D73195F926500C5C875 /* KTScoreCalculator.h */,
+				C7D96D74195F926500C5C875 /* KTScoreCalculator.m */,
+				C7D96D7A19602E3F00C5C875 /* KTBurritoStore.h */,
+				C7D96D7B19602E3F00C5C875 /* KTBurritoStore.m */,
 			);
 			path = HackDin2;
 			sourceTree = "<group>";
@@ -230,8 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D96D35195F5BB900C5C875 /* Images.xcassets in Resources */,
+				C7D96D57195F639700C5C875 /* rice.jpg in Resources */,
+				C7D96D6A195F81D000C5C875 /* check.png in Resources */,
+				C7D96D55195F638900C5C875 /* beans.jpg in Resources */,
+				C7D96D77195F947900C5C875 /* ChipotleFront.jpg in Resources */,
 				C7D96D27195F5BB900C5C875 /* InfoPlist.strings in Resources */,
+				C7D96D6C195F833000C5C875 /* checkmark64.png in Resources */,
 				C7D96D30195F5BB900C5C875 /* Main.storyboard in Resources */,
+				C7D96D79195F990600C5C875 /* AvocadosBG.jpg in Resources */,
+				C7D96D59195F63A700C5C875 /* avocado.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D96D68195F804000C5C875 /* KTBurrIngreVC.m in Sources */,
+				C7D96D72195F912800C5C875 /* KTUser.m in Sources */,
 				C7D96D33195F5BB900C5C875 /* KTViewController.m in Sources */,
+				C7D96D62195F70C500C5C875 /* SPUserResizableView.m in Sources */,
+				C7D96D53195F5ED500C5C875 /* KTBurritoBuilderVC.m in Sources */,
+				C7D96D75195F926500C5C875 /* KTScoreCalculator.m in Sources */,
 				C7D96D29195F5BB900C5C875 /* main.m in Sources */,
+				C7D96D6F195F909100C5C875 /* KTBurrito.m in Sources */,
+				C7D96D7C19602E3F00C5C875 /* KTBurritoStore.m in Sources */,
 				C7D96D2D195F5BB900C5C875 /* KTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
