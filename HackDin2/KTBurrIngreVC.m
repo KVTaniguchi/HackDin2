@@ -13,6 +13,11 @@
 @property (nonatomic) BOOL pintoBeansSelected;
 @property (nonatomic) BOOL blackBeansSelected;
 @property (nonatomic) BOOL guacSelected;
+@property (nonatomic) BOOL cheeseSelected;
+@property (nonatomic) BOOL porkSelected;
+@property (nonatomic) BOOL chickenSelected;
+@property (nonatomic) BOOL steakSelected;
+@property  (nonatomic) BOOL sourCreamSelected;
 @end
 
 
@@ -46,6 +51,15 @@
     [self.porkButton.layer setCornerRadius:30];
     [self.bbqButton.layer setCornerRadius:30];
     [self.chickenButton.layer setCornerRadius:30];
+    _whiteRiceSelected = NO;
+    _pintoBeansSelected = NO;
+    _blackBeansSelected = NO;
+    _guacSelected = NO;
+    _cheeseSelected = NO;
+    _porkSelected = NO;
+    _chickenSelected = NO;
+    _steakSelected = NO;
+    _sourCreamSelected = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -65,13 +79,30 @@
 */
 
 - (IBAction)whiteRiceSelectPressed:(id)sender {
-    self.whiteRiceSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_whiteRiceSelected == NO) {
+        self.whiteRiceSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+        _whiteRiceSelected = YES;
+    }else{
+        _whiteRiceSelected = NO;
+        self.whiteRiceSelectButton.backgroundColor = [UIColor clearColor];
+    }
 }
 - (IBAction)pintoBeanSelectPress:(id)sender {
-    self.pintoBeanSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_pintoBeansSelected == NO) {
+        _pintoBeansSelected = YES;
+        self.pintoBeanSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    }else{
+        _pintoBeansSelected = NO;
+        self.pintoBeanSelectButton.backgroundColor = [UIColor clearColor];
+    }
 }
 - (IBAction)blackBeanSelectPress:(id)sender {
-    self.blackBeanSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_blackBeansSelected == NO) {
+        _blackBeansSelected = YES;
+        self.blackBeanSelectButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    }else{
+        self.blackBeanSelectButton.backgroundColor = [UIColor clearColor];
+    }
 }
 - (IBAction)veggieButtonPressed:(id)sender {
     self.veggieButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
