@@ -109,13 +109,29 @@
 }
 
 - (IBAction)cheeseButtonPress:(id)sender {
-    self.cheeseButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_cheeseSelected == NO) {
+        _cheeseSelected = YES;
+        self.cheeseButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    }else{
+        self.cheeseButton.backgroundColor = [UIColor clearColor];
+    }
 }
 - (IBAction)steakButtonPress:(id)sender {
-    self.steakButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_steakSelected == NO) {
+        _steakSelected = YES;
+        self.steakButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    }else{
+        self.steakButton.backgroundColor = [UIColor clearColor];
+    }
 }
 - (IBAction)porkButtonPress:(id)sender {
-    self.porkButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    if (_porkSelected == NO) {
+        _porkSelected = YES;
+        self.porkButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
+    }else{
+        
+    }
+
 }
 - (IBAction)bbqButtonPress:(id)sender {
     self.bbqButton.backgroundColor = [UIColor colorWithRed:79.0f/255.0f green:140.0f/255.0f blue:52.0f/255.0f alpha:1.0];
